@@ -43,7 +43,7 @@ body{
     text-decoration: none;
     background-color: orchid;
     border: 2px solid orchid;
-    border-radius: 3px;
+    border-radius: 10px;
     font-size: 25px;
     color: white;
     padding: 3px 20px;
@@ -93,4 +93,64 @@ body{
 #box3{
     margin-right: 50px;
     background-color: rgb(209, 233, 201);
+}
+.part3{
+    margin-top: 10px;
+
+}
+.part3_top{
+    display: flex;
+    margin-bottom: 150px;
+
+}
+.part3_top_left{
+    width: 50%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:250px;
+
+    
+    
+}
+.part3_top_left img{
+    margin-left: 70px;
+    width: 60%;
+}
+.part3_top_right{
+    width: 50%;
+    margin-right: 300px;
+    margin-top: -40px;
+}
+.part3_top_right p{
+    font-size: 20px;
+}
+.part3_bottom{
+    display: flex;
+    margin-bottom: 150px;
+
+}
+.part3_bottom_left{
+    width: 50%;
+    margin-left: 30px;
+    margin-top: -40px;
+
+}
+.part3_bottom_left p{
+    font-size: 20px;
+}
+.part3_bottom_right{
+    width: 50%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:195px;
+    margin-top: -30px;
+
+
+}
+.part3_bottom_right img{
+    margin-left: 200px;
+    margin-bottom: 200px;
+    width: 50%;
 }
